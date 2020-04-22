@@ -1,0 +1,503 @@
+
+body,h1,h2,h3,p,input,button,ul {
+    margin: 0;
+    padding: 0;
+}
+body,input,button,textarea {
+    font: 12px/1.5 sans-serif;
+}
+h1,h2,h3 {
+    font-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*public styles*/
+body {
+    min-width: 1180px;
+    max-width: 1600px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*header styles*/
+header {
+    position: relative;
+    height: 990px;
+    color: #fff;
+}
+
+h1 {
+    position: absolute;
+    top: 208px;
+    left: 50%;
+    transform: translate(-50%);
+    font: 62px/72px ExtraLight;
+}
+
+header p {
+    position: absolute;
+    top: 343px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 766px;
+    font: 20px/32px ExtraLight;
+    text-align: center;
+    opacity: 0.7;
+}
+
+header form {
+    position: absolute;
+    top: 530px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 970px;
+    height: 250px;
+    border:1px solid rgba(255,255,255,.2);
+}
+
+header h3 {
+    position: absolute;
+    top: 61px;
+    left: 50%;
+    transform: translate(-50%);
+    font: 600 16px/28px light;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+header form p {
+    position: absolute;
+    top: 93px;
+    text-align: center;
+    font: 12px light;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: .3;
+}
+
+.header_form {
+    display: flex;
+    position: absolute;
+    top: 148px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 769px;
+    justify-content: space-between;
+}
+
+header input {
+    width: 292px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    font: 14px/26px light;
+    background-color: transparent;
+    color: #fff;
+    text-indent: 25px;
+}
+
+header button {
+    width: 125px;
+    height: 50px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 1px;
+    font: 700 12px/22px light;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*feature styles*/
+#features {
+    position: relative;
+    height: 710px;
+    color: #0e0e0e;
+    background-color: #fff;
+}
+
+.subheading {
+    position: absolute;
+    top: 89px;
+    left: 50%;
+    transform: translate(-50%);
+    font: 600 14px/28px Light;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#features h2 {
+    margin: 0 auto;
+    padding-top: 141px;
+    width: 800px;
+    font: 42px/52px ExtraLight;
+    text-align: center;
+}
+
+#features_content {
+    margin: 0 auto;
+    padding-top: 75px;
+    width: 1045px;
+}
+
+#features img {
+    float: left;
+}
+
+#accessibility {
+    margin-left: -10px; /*由于图标宽度不一致，需要设置使其垂直方向右对齐*/
+}
+
+#fluid_typography {
+    margin-left: -19px;
+}
+
+#customization {
+    margin-left: -20px;
+}
+
+#features h3 {
+    margin-bottom: 14px;
+    font: 600 20px/32px Light;
+}
+
+.features_details_left {
+    margin-left: 61px;
+}
+
+.features_details_bottom {
+    margin-bottom: 74px;
+}
+
+.features_details_left p {
+    width: 360px;
+    font: 16px/26px ExtraLight;
+    opacity: .7;
+}
+
+.set_left {
+    float: left;
+}
+
+.set_right {
+    float: right;
+}
+
+/*case styles*/
+#case {
+    position: relative;
+    height: 800px;
+    color: #fff;
+    background-image: url(img/background_content.png);
+    background-color: #000;
+}
+
+#case_details {
+    position: absolute;
+    top: 193px;
+    left: 315px;
+    width: 380px;
+}
+
+#case h2 {
+    font: 42px/52px ExtraLight;
+}
+
+#case p {
+    padding-top: 30px;
+    font: 18px/28px ExtraLight;
+    opacity: .7;
+}
+
+#case form {
+    position: absolute;
+    top: 570px;
+    left: 315px;
+}
+
+#case button {
+    border-radius: 1px;
+    text-transform: uppercase;
+    font: 600 12px Light;
+    letter-spacing: 2px;
+}
+
+#case form button:first-of-type {
+    border: 0;
+    width: 240px;
+    height: 60px;
+    color: #000;
+    background-color: #fff;
+}
+
+#case form button:last-of-type {
+    margin-left: 30px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    width: 235px;
+    height: 60px;
+    color: #fff;
+    background-color: transparent;
+}
+
+/*products styles*/
+#products {
+    position: relative;
+    height: 579px;
+    background-color: #fff;
+}
+
+#products h2 {
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    transform: translate(-50%);
+    font: 42px/52px ExtraLight;
+}
+
+#products div {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 228px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 960px;
+}
+
+#products article {
+    width: 260px;
+    text-align: center;
+    font: 16px/26px ExtraLight;
+}
+
+#products p {
+    margin-top: 35px;
+    opacity: .7;
+}
+
+/*function styles*/
+#function {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    height: 999px;
+    background: #fff;
+}
+
+#function_wrap {
+    margin: 115px auto 0;
+    width: 980px;
+}
+
+#function h3 {
+    padding-top: 72px;
+    padding-bottom: 24px;
+    font: 600 20px/32px Light;
+}
+
+#function p {
+    font: 16px/28px ExtraLight;
+    opacity: .7;
+}
+
+#learn {
+    float: left;
+}
+
+#learn_details {
+    margin-bottom: 80px;
+    margin-left: 670px;
+    width: 307px;
+    height: 350px;
+}
+
+#learn_details h3 {
+    width: 280px;
+}
+
+#choose {
+    float: right;
+}
+
+#choose_details {
+    width: 307px;
+    height: 350px;
+}
+
+/*crew styles*/
+#crew {
+    border-bottom: 1px solid #e7e7e7;
+    height: 1030px;
+    background-color: #fff;
+}
+
+#crew h2 {
+    margin: 94px auto 25px;
+    text-align: center;
+    font: 42px/52px ExtraLight;
+}
+
+#crew p {
+    margin: 0 auto;
+    width: 720px;
+    text-align: center;
+    font: 18px/28px ExtraLight;
+    opacity: .7;
+}
+
+#crew div {
+    display: flex;
+    margin: 58px auto 0;
+    width: 1035px;
+    flex-flow: wrap;
+}
+
+#crew img {
+    display: block;
+    margin: 15px;
+}
+
+/*contacts styles*/
+#contacts {
+    height: 700px;
+    background-color: #fff;
+}
+
+#contacts_wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+
+#contacts form {
+    float: left;
+    margin-top: 70px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    width: 470px;
+    height: 560px;
+}
+
+#contacts_details {
+    padding-top: 153px;
+    margin-left: 600px;
+}
+
+#contacts h3 {
+    margin-top: 45px;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    font: 600 16px/32px Light;
+    letter-spacing: 2px;
+}
+
+#contacts input {
+    display: block;
+    margin: 0 auto 30px;
+    border: 1px solid #d4d3d3;
+    padding: 20px;
+    width: 328px;
+    height: 28px;
+
+}
+
+#contacts textarea {
+    display: block;
+    margin: 0 auto 30px;
+    border: 1px solid #d4d3d3;
+    padding: 20px;
+    width: 328px;
+    height: 102px;
+    resize: none;/* 去掉文本框右下角的扩展拉伸三角标志*/
+}
+
+#contacts button {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    width: 368px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #141414;
+}
+
+#contacts h2 {
+    padding-bottom: 32px;
+    font: 600 42px/52px ExtraLight;
+}
+
+#contacts p {
+    margin-bottom: 64px;
+    font: 16px/26px ExtraLight;
+    opacity: .7;
+} 
+
+#contacts .img_details {
+    margin-bottom: 29px;
+}
+
+#contacts .img_details p {
+    display: inline;
+    white-space: pre;
+    font: 600 16px/26px Light;
+    opacity: 1;
+}
+
+#contacts img {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+/*footer styles*/
+footer {
+    height: 410px;
+    background-color: #000;
+    color: #fff;
+}
+
+#footer_wrap {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 82px;
+    width: 1180px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    margin-bottom: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font: 600 14px/28px Light;
+}
+
+footer a {
+    font: 16px/46px ExtraLight;
+    opacity: .3;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 39px;
+    width: 270px;
+    font: 18px/28px ExtraLight;
+    opacity: .4;
+}
+
+#share_link a {
+    margin-right: 24px;
+    display: inline-block;
+    opacity: 1;
+}
