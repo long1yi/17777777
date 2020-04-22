@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>开始写网页</title>
+        <link rel="stylesheet" href="自己的网页.css">
+    </head>
+    <body>
+        <header>
+            <img src="D:\A1百度前端任务\网站图\前端学院设计图 - 副本.jpg">
+            <h1>Hello World</h1>
+            <p>China is speeding up strategic plan, standards, traffic rules, laws and regulations on accident-incurred liabilities for its smart car industry, Economic Information Daily reported Thursday.</p>
+            <form action="#" name="sign_up">
+                <h3>Create Your Account</h3>
+                <p>It is absolutely free</p>
+                <div class="header_form">
+                    <input type="text" value="denis@getgraftwork.com">
+                    <input type="password" placeholder="Create your password">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </header>
+        
 
+        <section id="features">
+            <p class="subheading">Boatloads of Awesome</p>
+            <h2>Ready-made, customizable, HTML landing page sections</h2>
+            <div id="features_content" class="clearfix">
+                <div class="set_left">
+                    <div>
+                        <img id="mobile_first" src="D:\A1百度前端任务\网站图\手机.png">
+                        <div class="features_details_left features_details_bottom">
+                            <h3>Mobile First</h3>
+                            <p>All modulz are built mobile-first for maximum device compatibility.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img id="fluid_typography" src="D:\A1百度前端任务\网站图\对勾.png">
+                        <div class="features_details_left">
+                            <h3>Fluid Typography</h3>
+                            <p>On different screen sizes, fonts automagically scale with the viewport.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set_right">
+                    <div>
+                        <img id="accessibility" src="D:\A1百度前端任务\网站图\笔.png">
+                        <div class="features_details_left features_details_bottom">
+                            <h3>Accessibility</h3>
+                            <p>Support for IE8, mobile and tablet devices, screenreaders and color blind.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img id="customization" src="D:\A1百度前端任务\网站图\极管.png">
+                        <div class="features_details_left">
+                            <h3>Customization</h3>
+                            <p>Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to creste the custom look you want.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="case">
+            <div id="case_details">
+                <h2>Supportive policies for China's smart car</h2>
+                <p>China will come up its own smart car standards, traffic rules, laws and regulations relating to safety,according to the China Industry Innovation Alliance for the Intelli-gent and Connected Vehicles.</p>
+            </div>
+            <form action="#" name="features">
+                <button type="submit">Check out Features</button>
+                <button type="submit">Try product for Free</button>
+            </form>
+        </section>
+
+        <section id="products">
+            <h2>Try Our Awesome Products</h2>
+            <div>
+                <article>
+                    <img src="D:\A1百度前端任务\网站图\Sing.png">
+                    <p>Li Jun, a China Academy of Engi-neering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architec-ture and standards for test grounds.</p>
+                </article>
+                <article>
+                    <img src="D:\A1百度前端任务\网站图\Hero.png">
+                    <p>Li said the smart car industry is able to enlarge the current car industry by 1 trillion yuan ($158.15 billion) and also able to boost fast development in 5G, internet of cars, big data, artificial intelligence and new-energy vehicles.</p>
+                </article>
+                <article>
+                    <img src="D:\A1百度前端任务\网站图\Pon.png">
+                    <p>Zhang Junyi, a partner with NIO Capital, said that the smart car is the trend for the car industry and China's auto sector will usher in a new key development stage with the improvement of infrastructure, technology, policies and laws.</p>
+                </article>
+            </div>
+        </section>
+
+        <div id="function" class="clearfix">
+            <div id="function_wrap">
+                <img src="D:\A1百度前端任务\网站图\叶子.png" id="learn">
+                <div id="learn_details">
+                    <h3>Learn How to Improve Your Personal Business</h3>
+                    <p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architec-ture and standards for test grounds.</p>
+                </div>
+                <img src="D:\A1百度前端任务\网站图\鸟.png" id="choose">
+                <div id="choose_details">
+                    <h3>Choose Between Two Beautifully Designed Color Schemes.</h3>
+                    <p>China will come up its own smart car standards, traffic rules, laws and reg-ulations relating to safety,according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles.</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="crew">
+            <h2>Our Awesome Crew</h2>
+            <p>Our unique online teaching style makes learning easy for everyone, Whether you are trying to land a new job, brush up on your skills.</p>
+            <div>
+                <img src="D:\A1百度前端任务\网站图\人物1.png">
+                <img src="D:\A1百度前端任务\网站图\人物2.png">
+                <img src="D:\A1百度前端任务\网站图\人物3.png">
+                <img src="D:\A1百度前端任务\网站图\人物4.png">
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div id="contacts_wrap">
+                <form action="#" name="contacts_form">
+                    <h3>Fell free to Write Us</h3>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="contacts_details">
+                    <h2>Contacts</h2>
+                    <p>Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to create the custom look you want.</p>
+                    <div class="img_details">
+                        <img src="D:\A1百度前端任务\网站图\图标1.png">
+                        <p>360 King Street
+         Feastrvale Trevose, PA 19057  </p>
+                    </div>
+                    <div class="img_details">
+                        <img src="D:\A1百度前端任务\网站图\图标2.png">
+                        <p>(755) 564-84-12</p>
+                    </div>
+                    <div class="img_details">
+                        <img src="D:\A1百度前端任务\网站图\图标3.png">
+                        <p>youname@mail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div id="footer_wrap">
+                <nav>
+                    <h3>Learn More</h3>
+                    <ul>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Meeting tools</a></li>
+                        <li><a href="#">Live streaming</a></li>
+                        <li><a href="#">Contact method</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Privacy police</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">F.A.Q.</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Live chat</a></li>
+                        <li><a href="#">Phone call</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h3>Enjoy your Life</h3>
+                    <p>Great web UI kit for designers, freelancers or business.</p>
+                    <div id="share_link">
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图1.png"></a>
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图2.png"></a>
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图3.png"></a>
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图4.png"></a>
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图5.png"></a>
+                        <a href="#"><img src="D:\A1百度前端任务\网站图\底图6.png"> </a>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
